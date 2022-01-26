@@ -8,11 +8,23 @@
 
 <hr />
 
-<form action="/login" method="post">
-	<input type="text" name="user">
-	<input type="password" name="password">
-	<button type="submit">Login</button>
-</form>
+<form action="/signup" method="post">
+	<label for="fname">First name:</label>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="lname">Last name:</label>
+	<input type="text" id="lname" name="lname"><br><br>
+	<label for="tidentification">Type identification:</label>
+	<select name="select">
+	<option value="value1">NIF</option>
+	<option value="value2" selected="">DNI</option>
+	<option value="value3">NIE</option>
+	</select><br><br>
+	<label for="identification">Identification:</label>
+	<input type="text" id="identification" name="identification"
+	<button type="submit">Submit</button>
+	</form>
+
+
 
 <hr />
 
